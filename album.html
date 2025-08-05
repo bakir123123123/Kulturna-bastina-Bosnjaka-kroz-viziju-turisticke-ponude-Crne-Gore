@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    .album-section {
+      max-width: 1200px;
+      margin: 3rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      padding: 0 1rem;
+    }
+    .album-item {
+      background-color: white;
+      flex: 0 0 calc(25% - 1rem);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .album-item img {
+      width: 100%;
+      display: block;
+    }
+    .album-item h3 {
+      padding: 1rem 1rem 0.5rem;
+      font-size: 1.2rem;
+      color: #2c3e50;
+    }
+    .album-item span {
+      display: block;
+      padding-bottom: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 992px) {
+      .album-item {
+        flex: 0 0 calc(50% - 1rem);
+      }
+    }
+    @media (max-width: 768px) {
+      .album-item {
+        flex: 0 0 calc(50% - 1rem);
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav div {
+        margin-bottom: 0.5rem;
+      }
+      
+    }
+    @media (max-width: 500px) {
+      .album-item {
+        flex: 0 0 calc(50% - 1rem);
+      }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="https://fzm.me/v/index.php/naslovnal"><div style="color: white; font-weight: bold; font-size: 1.2rem;"><img src="./fond.png" alt=""></div></a>
+    <div>
+      <a href="./index.html">Početna</a>
+      <a href="#">Fond</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1> Foto Album</h1>
+  </header>
+
+  <div class="album-section">
+   
+    <div class="album-item">
+      <img src="./slike/omerbasic.jpg"  alt="Slika 1">
+      <h3>Džamija Omerbašića</h3>
+     
+    </div>
+    <div class="album-item">
+      <img src="./slike/sahatKula.jpg" alt="Slika 2">
+      <h3>Sahat kula u Podgorici </h3>
+      
+    </div>
+    <div class="album-item">
+      <img src="./slike/sahat2.jpg" alt="Slika 3">
+      <h3>Sahat kula u Podgorici </h3>
+    
+    </div>
+    <div class="album-item">
+      <img src="./slike/kucanska.jpg" alt="Slika 4">
+      <h3>Kučanska džamija u Rožajama</h3>
+      
+    </div>
+    <div class="album-item">
+      <img src="slike/minare.jpg" alt="Slika 5">
+      <h3>Minare Satrodoganske džamije u Podgorici</h3>
+      
+    </div>
+    <div class="album-item">
+      <img src="slike/divan1.jpg" alt="Slika 6">
+      <h3>Muslimanska soba-prostorija u okviru edukativnog centra “Divan” u Podgorici</h3>
+     
+    </div>
+    <div class="album-item">
+      <img src="slike/divan2.jpg" alt="Slika 7">
+      <h3>Vakuf – IZCG DIVAN, edukativni centar Podgorica</h3>
+      
+    </div>
+    <div class="album-item">
+      <img src="slike/divan3.jpg" alt="Slika 8">
+      <h3>Vakuf – IZCG DIVAN, edukativni centar Podgorica</h3>
+      
+    </div>
+
+    <div class="album-item">
+      <img src="slike/tuzi.jpg" alt="Slika 8">
+      <h3>Tuzi, džamija</h3>
+    </div>
+
+    <div class="album-item">
+    <img src="slike/medresa.jpg" alt="Slika 8">
+    <h3>Medresa “Mehmed Fatih” Tuzi</h3></div>
+    
+
+  <div class="album-item">
+    <img src="slike/turbe.jpg" alt="Slika 8">
+    <h3>Ulicnj Turbe porodice Pulti</h3></div>
+
+    <div class="album-item">
+    <img src="slike/sahatUlcinj.jpg" alt="Slika 8">
+    <h3>Sahat kula u Ulcinju </h3></div>
+
+
+    <div class="album-item">
+    <img src="slike/nisan.jpg" alt="Slika 8">
+    <h3>Nišani u haremu džamije</h3></div>
+
+
+    <div class="album-item">
+    <img src="slike/minare.jpg" alt="Slika 8">
+    <h3>Munara fotografisano na Islamskom centru u Baru</h3></div>
+
+    <div class="album-item">
+    <img src="slike/dzamijaZ.jpg" alt="Slika 8">
+    <h3>Na slici je prikazan drugi sprat Džamije na vrhu pazara u Ulcinju namijenjen za žene</h3></div>
+
+
+    <div class="album-item">
+    <img src="slike/dzamijaM.jpg" alt="Slika 8">
+    <h3>Na slici je prikazan prvi sprat Džamije na vrhu pazara u Ulcinju namijenjen za muškarce</h3></div>
+
+
+    <div class="album-item">
+    <img src="slike/ramazan.jpg" alt="Slika 8">
+    <h3>Fotografisano u susret Ramazanu u edukativnom centru “Divan” u Podgorici</h3></div>
+
+    <div class="album-item">
+    <img src="slike/cilim.jpg" alt="Slika 8">
+    <h3>Slikano u Starom Baru u jednoj od džamija </h3></div>
+
+    <div class="album-item"><
+    <img src="slike/pljevlja.jpg" alt="Slika 8">
+    <h3>Sahat kula u Pljevljima </h3></div>
+
+    <div class="album-item">
+    <img src="slike/husein.jpg" alt="Slika 8">
+    <h3>Husein-pašina džamija u Pljevljima </h3></div>
+
+    <div class="album-item">
+    <img src="slike/sebiljTuzi.jpg" alt="Slika 8">
+    <h3>Sebilj u Tuzima - česma koja spaja </h3></div>
+
+    <div class="album-item">
+    <img src="slike/dzemat.jpg" alt="Slika 8">
+    <h3>Džemat u Osmanagića džamiji u Podgorici </h3>
+  </div>
+
+    <div class="album-item">
+    <img src="slike/mapiranje.jpg" alt="Slika 8">
+    <h3>Signalizacija – Gusinje </h3>
+  </div>
+
+
+
+    </div>
+
+    
+      
+    </div>
+  </div>
+  
+
+  <footer>
+    <h2>Sajt izradio: Adnan Metđonaj</h2>
+    <p><strong>Iznijeti stavovi su isključivo odgovornost autora i/ili izdavača i nužno ne izražavaju stavove Fonda</strong></p>
+    <strong>Kulturna baština Bošnjaka kroz viziju turisticke ponude Crne Gore</strong>
+  </footer>
+
+</body>
+</html>

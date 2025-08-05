@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocetna</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    .cards-section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+    }
+    .card {
+      background-color: white;
+      flex: 0 0 calc(50% - 1rem);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .cta {
+      background-color: #4ca1af;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 12px;
+      margin: 3rem auto;
+      max-width: 1000px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .cta h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .cta button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      background-color: #2c3e50;
+      color: white;
+      cursor: pointer;
+    }
+    .cta button:hover {
+      background-color: #1a252f;
+    }
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex: 0 0 100%;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav div {
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="https://fzm.me/v/index.php/naslovnal"><div style="color: white; font-weight: bold; font-size: 1.2rem;"><img src="./fond.png" alt=""></div></a>
+    <div>
+      <a href="#">Početna</a>
+      <a href="./album.html">Album</a>
+      <a href="https://fzm.me/v/index.php/naslovnal">Fond</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Kulturna baština Bosšnjaka kroz viziju turisticke ponude Crne Gore</h1>
+  </header>
+
+  <div class="cards-section">
+    
+    <div class="card"><h3>Islamski vjerski objekti na teritoriji Crne Gore kao turistička ponuda</h3><p>Crna Gora je zemlja bogate kulturne baštine, u kojoj se stapaju različiti vjerski i kulturni uticaji, a među njima i islamski. Islam je u Crnu Goru stigao u 15. vijeku, tokom osmanske vladavine, koja je trajala sve do kraja 19. veka. Danas, muslimani čine značajan dio crnogorskog društva, a islamska kulturna baština predstavlja važan segment turističke ponude zemlje.
+      Islamski vjerski objekti na teritoriji Crne Gore, kao što su džamije, mektebi, musafirhane i turbeta, ne samo da imaju vjerski značaj, već i istorijski i kulturni, te mogu privući posjetioce iz zemlje i inostranstva.
+      </p><img src="./slike/omerbasic.jpg" alt="Slika 1">
+      <span><i>Džamija Omerbašića u Starom Baru</i></span>
+      <br>
+      <br>
+    
+      <p>Džamija Omerbašića u Starom Baru sagrađena je 1662. godine koja predstavlja parvo turističko blago Bara i Crne Gore
+        Džamija Omerbašića je pravi primjer turističke atrakcije I ima posebnu istorijsku i turističku vrijednost, jer ne samo da prikazuje islamsku arhitekturu tog perioda, već i odražava kulturni miks koji je postojao u Starom Baru kroz vjekove. Danas predstavlja važnu destinaciju za sve ljubitelje istorije, arhitekture i kulture.
+        Njena specifičnost u regionu čini je nezaobilaznim dijeelom turističke ponude Bara i Crne Gore.
+        </p>
+    
+    </div>
+    <div class="card"><h3>Sahat kula u Podgorici mjesto koje plijeni pažnju turistima</h3><p>Sahat kula u Podgorici je jedan od najprepoznatljivijih i najznačajnijih spomenika u glavnom gradu Crne Gore. Smještena u starom dijelu grada, pored rijeke Morače, Sahat kula datira iz osmanskog perioda, tačnije iz 17. vijeka. Ovaj istorijski objekat ujedno je i simbol Podgorice, a turisti je često posjećuju zbog njene kulturno-istorijske vrijednosti, kao i zbog preliepog pogleda koji pruža na okolinu. Kula je visoka oko 17 metara, a na njenom vrhu se nalazi sat, koji je bio jedan od glavnih načina za mjerenje vremena u to vrijeme. Unutrašnjost kule sadrži zanimljive detalje koji otkrivaju bogatu istoriju i tradiciju ovog prostora. Ovaj objekat se često koristi kao lokacija za fotografisanje, jer okolina nudi predivan ambijent sa starim gradskim ulicama i rijekom.
+  
+      </p>
+      <br>
+      <p>Sahat kula se nalazi u neposrednoj blizini drugih istorijskih i kulturnih znamenitosti, pa je dio svakog turističkog obilaska Podgorice.</p>
+      
+      <img src="./slike/sahatKula.jpg" alt="Slika 2">
+      
+      <span><i>Djelo akademskog slikara Lazarevića, slikao NN</i></span>
+    </div>
+      
+    <div class="card"><h3>Džamije kao kulturno-istorijski spomenici</h3><p>Džamije su najprepoznatljiviji islamski vjerski objekti u Crnoj Gori. Prema ciljevima projekta ističemo bitno pomenuti turistički značaj vjerskih objekata u Crnoj Gori. Opšte je poznato da najstarije džamije datiraju iz perioda osmanske vladavine, a mnoge su sačuvane i do danas. Džamija u Baru, iz 16. vijeka, smatra se jednim od najlepših primjera osmanske arhitekture u Crnoj Gori. Osim svoje vjerske funkcije, ove džamije predstavljaju i vredne istorijske spomenike, sa bogatom unutrašnjom dekoracijom, minberima, mihrabima i džamijskim dvorištima, što je čini itekako atraktivnom ponudom za sve turističke ture, posjete i obilaske.</p>
+      <img src="./slike/kucanska.jpg" alt="Slika 3">
+    <span>Kučanska džamija u Rožajama, slikao NN</span>
+    <br><br> <p>Jedan od najlepših primjera je i Džamija u Rožajama, koja je karakteristična po svojoj monumentalnoj arhitekturi i ukrasima koji prikazuju osmanski uticaj. Džamija u Nikšiću, koja datira iz 17. vijeka, takođe je važna atrakcija, a njeno prisustvo u srcu grada podsjeća na duge godine osmanske vladavine. Takođe, i džamije u Podgorici i na Bihoru privlače brojne turiste, ne samo iz vjerskih razloga, već i kao kulturno-istorijski I turistički objekti.</p>
+
+  </div>
+    <div class="card"><h3>Molitve i vjerski obredi kao turistička atrakcija</h3><p>Poseta islamskim vjerskim objektima u Crnoj Gori pruža mogućnost da turisti prisustvuju tradicionalnim molitvama i verskim obredima. Ove molitve, koje se obavljaju u džamijama pet puta dnevno, nude jedinstveni uvid u duhovni život muslimanske zajednice. Za posetioce koji žele da bolje razumeju islamsku religiju, prisustvovanje ovim obredima može biti iskustvo koje obogaćuje njihovo putovanje i doprinosi kulturnom razumevanju. </p>
+      <img src="./slike/tuzi.jpg" alt="Slika 4">
+    <span>Tuzi, džamija</span> <br> <br>
+    <p>Molitve i vjerski obredi u Crnoj Gori, kao dio vjerskog turizma, postaju sve značajniji faktor u privlačenju posjetilaca koji su zainteresirani za duhovne i kulturne aspekte zemlje. Crna Gora, sa svojom raznolikom vjerskom baštinom koja uključuje pravoslavlje, islam i katoličanstvo, nudi bogatstvo vjerskih manifestacija, molitvenih rituala i obreda koji su ne samo duboko ukorijenjeni u tradiciju, već mogu biti i atraktivni za turiste.</p>
+    </div>
+    <div class="card"><h3>Mektebi i musafirhane kao dio kulturnog i vjerskog turizma</h3><p>Mektebi, vjerske škole koje služe kao obrazovne ustanove za djecu i omladinu, često imaju značajnu kulturnu i istorijsku vrijednost. Mektebi su centar islamskog obrazovanja, a njihova tradicija se prenosi kroz generacije. Mnogi turisti koji se interesuju za kulturološke aspekte života u Crnoj Gori mogu posjetiti mektebe, gdje će se upoznati sa načinom obrazovanja, te će moći da dožive kulturnu baštinu kroz neposrednu interakciju sa lokalnim muslimanskim zajednicama. Na slikama su prikazani objekti medrese u Donjem Milješu I kulturnog centra “Divan” u Podgorici na Starom aerodromu.  </p>
+      <img src="./slike/divan1.jpg" alt="Slika 5">
+    <span>Vakuf – IZCG DIVAN, edukativni centar Podgorica</span> <br> <br>
+    <p>Ove dvije institucije danas mogu biti posjećene kroz organizovane ture kulturnog i vjerskog turizma. Turisti koji dolaze u Crnu Goru kako bi bolje razumjeli islamsku kulturnu baštinu, arhitekturu, ali i svakodnevni život kroz istoriju, mogu posjetiti mektebe i musafirhane, te tako doživjeti autentičnu atmosferu. Osim toga, posjeta ovim objektima može doprinositi boljem razumijevanju međuvjerskog dijaloga i kulturnog naslijeđa Crne Gore, koja je zemlja s bogatom istorijom različitih religijskih i kulturnih tradicija.
+      Iako su neke musafirhane i mektebi danas preuređene ili manje aktivne u svom izvornoj funkciji, mnoge od njih i dalje zadržavaju svoj istorijskii značaj, a posjeta ovim mjestima omogućava turizmu da se usmjere prema autentičnom iskustvu koje se temelji na tradicijama i običajima tih vremena.
+      <br> <br>
+      <p>Musafirhane, objekti koji su služili kao prenoćišta za putnike, takođe čine važan deo turističke ponude. Iako danas nisu u funkciji prenoćišta, mnoge musafirhane su sačuvane u svom autentičnom obliku i često služe kao muzeji ili kulturni centri.</p>
+      </p>
+    </div>
+    <div class="card"><h3>Ulicnj Turbe porodice Pulti</h3><p>Turbe porodice Pulti u Ulcinju je takođe značajan istorijski, turistički i kulturni spomenik. Ova porodica je bila ugledna i uticajna u regionu, a turbe je izgrađeno u čast članova porodice koji su preminuli. Kao i mnogi drugi turbeti u Crnoj Gori, ovo je mjesto poslednjeg počivališta, a ujedno i simbol islamske tradicije tog vremena.
+      Turbe porodice Pulti u Ulcinju se odlikuje jednostavnom, ali prepoznatljivom arhitekturom, koja je karakteristična za osmansku graditeljsku baštinu. Slična turbetima u drugim djelovima Balkana, ovo turbe je od značaja i za istraživanje kulturnih i religijskih tradicija tog perioda.
+      Iako je manja poznata od nekih drugih spomenika u Crnoj Gori, turbe porodice Pulti u Ulcinju doprinosi bogatstvu istorije ovog grada i predstavlja jedno od značajnih mjesta za posjetioce koji se interesuju za istoriju i kulturu regiona.
+      </p>
+      
+      <img src="slike/turbe.jpg" alt="Slika 6">
+    <span>Ulicnj Turbe porodice Pulti</span>
+    </div>
+
+    <div class="card"><h3>Džamiju pomoraca u Ulcinju na Maloj plaži karekterišu lijepi unutrašnji radovi</h3><p>Džamija pomoraca u Ulcinju, smještena na Maloj plaži, jedan je od najposećenijih i značajnih spomenika ovog grada. Nije poznata Godina izgradnje. Porušena je 1931. Godine , a ponovo izgradjena 2008-2012. Godine. đena je 1828. Nosi naziv "Džamija pomoraca" jer je posvećena pomorcima koji su kroz vjekove živjeli i radili u Ulcinju, gradu sa dugom pomorskom tradicijom. Džamija je specifična jer se nalazi u neposrednoj blizini mora, što je simbolično za pomorski grad kao što je Ulcinj.</p>
+      
+      <img src="slike/dzamijaUlcinj.jpg" alt="Slika 7">
+    <span>Džamiju pomoraca u Ulcinju na Maloj plaži karekterišu lijepi unutrašnji radovi</span><br><br>
+    <p>Ova džamija je značajna i po svom arhitektonskom stilu, koji je karakterističan za period Osmanlija ali sa nekim specifičnostima koje je čine jedinstvenom među drugim džamijama u regionu. Iako nije velika, njena lokacija i značaj čine je prepoznatljivim i vrijednim kulturnim spomenikom. Džamija pomoraca, osim što ima duhovnu funkciju, danas je i atrakcija za turiste, koji dolaze da se upoznaju sa istorijom i tradicijom Ulcinja, ali i da uživaju u pogledu na more koji se pruža iz njenog okruženja.</p>
+    </div>
+
+
+    <div class="card"><h3>Sahat kula u Ulcinju</h3><p>Ova kula je prepoznatljiva po svom visokom tornju sa satom na vrhu, koji i dalje pokazuje vrijeme. Zbog svoje specifične arhitekture i istorijskog značaja, Sahat kula je postala nezaobilazna tačka za turiste koji žele da istraže staru gradsko jezgro Ulcinja, uživaju u pogledu sa njenog vrha i saznaju više o istoriji grada.
+      Danas, Sahat kula predstavlja simbol tradicije, ali i savremenog Ulcinja, koji uspešno spaja svoj istorijski nasleđe sa modernim životom. Dobrovoljnim donacijama građana Ulcinja izgrađena je 1754. g. Sahat-kula sa namjerom da ljude poziva na posao, podsjeća ih na građanske dužnosti i usađuje im svjetovno shvatanje vremena. Njena pozicija je brižljivo odabrana, jer se praktično ona može vidjeti ili pak čuti otkucaji njenog sata iz svih dijelova grada. Kvadratne je osnove, a građena je od lijepog klesanog kamena. Dugo je u Ulcinju postojala osoba zvana muvekit, koja je svakodnevno vodila računa o tačnosti sata na Kuli.
+      Sahat kula je i danas veoma važna kao arhitektonski spomenik, a njena funkcija bila je da, kao i druge sahat kule širom Balkana, omogućava stanovnicima grada da prate vrijeme, posebno u doba prije nego što su bili uobičajeni moderni časovnici. Pored toga, kula je imala i strateški značaj jer je bila dio odbrambenih objekata grada.
+      .</p><img src="slike/sahatUlcinj.jpg" alt="Slika 8">
+    <span>Sahat kula u Ulcinju</span></div>
+
+
+    <div class="card"><h3>Munara ili minaret , na arapskom: منارة ili češće مئذنة  je najprepoznatljiviji arhitektonski motiv islamskih vjerskih objekata</h3><p>Munara (minaret) je jedan od najprepoznatljivijih arhitektonskih elemenata islamskih vjerskih objekata, posebno džamija. To je visoki toranj, obično sa spiralnim stepeništem, odakle se muezin poziva na molitvu (adhan). Munara je simbol duhovnosti, i njena visina omogućava da poziv na molitvu kako bi čuli vjernici iz velikih udaljenosti, čime se povezuje vjerska i društvena funkcija džamije.
+      Arhitektonski, munara može imati različite oblike, od jednostavnih do veoma dekorativnih, u zavisnosti od vremena izgradnje i kulturnog konteksta. U nekim džamijama, munara je ukrašena različitim ornamentima i kaligrafijama koje odražavaju umjetnički izražaj islamske umjetnosti. U mnogim slučajevima, munara se nalazi uz samu džamiju, ali može biti i potpuno odvojena, kao što je to slučaj u nekim istorijskim džamijama.
+      Munara, sa svojom visinom i izgledom, postaje prepoznatljiv simbol muslimanskih zajednica, a njeno prisustvo na horizontu često je znak prisutnosti islamske kulture i tradicije u tom području.
+      </p><img src="./slike/minare.jpg" alt="Slika 9">
+    <span>Munara fotografisano na Islamskom centru u Baru</span><br><br>
+  <p>Konkretno, Islamski centar u Baru zaista predstavlja značajan objekat, ne samo za lokalnu muslimansku zajednicu, već i za turiste islamske vjeroispovesti koji borave na crnogorskom primorju. Sagrađen sa ciljem da pruži prostor za obavljanje vjerskih obaveza, kao što su molitve i druge vjerske aktivnosti, Islamski centar postaje središnji punkt za one koji žele da praktikuju svoju vjeru dok uživaju u odmoru u ovom prelijepom primorskom region naše države. </p>
+  </div>
+
+
+    <div class="card"><h3>Džamija na Vrhu pazara u Ulcinju sa nišanima u njenom haremu odslkkavaju pravu istorijsko-kulturnu dimenziju grada </h3><p>Džamija na Vrhu pazara u Ulcinju je značajan spomenik islamske arhitekture i jedan od najvažnijih kulturnih objekata u ovom istorijskom gradu. Sagrađena u periodu osmanske vladavine, džamija na ovom mjestu ima poseban značaj, kako zbog svoje arhitekture, tako i zbog kulturno-historijske dimenzije koju nosi.</p>
+      
+      <img src="./slike/nisan.jpg" alt="Slika 10">
+    <span></span><br><br>
+    <p>Nišani u haremu džamije, odnosno nadgrobni spomenici, imaju posebnu vrijeednost jer sadrže bogatstvo informacija o životima i društvenim ulogama ljudi koji su bili povezani s Ulcinjem u prošlosti. Ovi nišani su dio bogate tradicije osmanskog perioda i odražavaju ne samo vjersku nego i kulturnu i društvenu dimenziju grada, jer često nose detalje koji nam govore o statusu, zanimanjima i životima ljudi iz tog vremena.
+      Džamija na Vrhu pazara sa svojim nišanima daje dubok uvid u život i tradiciju tadašnje muslimanske zajednice, koja je bila ključni dio istorije i razvoja Ulcinja. Ovaj kompleks nije samo religijski, već i istorijski spomenik, koji je važan za razumijevanje kulturnih slojeva grada i njegove povezanosti sa širim osmanskim svijetom.
+      Džamija na Vrhu pazara, kao i nišani u njenom haremu, predstavljaju ne samo turističku atrakciju, već i ključni element u očuvanju istorijskog identiteta Ulcinja, pružajući posjetiocima dublji uvid u bogatu kulturnu baštinu ovog regiona.
+      </p>
+    </div>
+
+
+    <div class="card"><h3>Opšte poznata praksa turista Islamske vjere prilikom obavljanja molitvi</h3><p>Opšte je poznata praksa turista Islamske vjere prilikom obavljanja molitvi da drugi sprat mnogih džamija, uključujući one u Crnoj Gori i šire, često je predviđen za žene. To je praksa koja potiče iz islamske tradicije, gdje se ženama daje poseban prostor za obavljanje molitve, kako bi se očuvala privatnost i omogućila im mirna i udobna molitva u društvu drugih žena. U nekim džamijama, drugi sprat je specijalno dizajniran sa odvojenim prostorom, ponekad s posebnim ulazom, kako bi se stvorio ambijent koji zadovoljava vjerske, kulturne i društvene norme.</p>
+     <br><br>
+      <p>U savremenim džamijama, prostor za žene često se povezuje sa funkcionalnošću i udobnošću, sa posebnim akcentom na omogućavanje prisustva žena na molitvama i drugim vjerskim aktivnostima. Džamije koje imaju takve podijeljene prostore često pružaju i druge sadržaje, kao što su predavanja, edukacije ili društvene aktivnosti, kako bi žene mogle učestvovati u zajedničkim vjerskim i kulturnim događanjima. Ovo nije samo praktičan prostor za obavljanje vjerskih dužnosti, već i mjesto za duhovno i zajedničko okupljanje.</p>
+      <img src="./slike/dzamijaM.jpg" alt="Slika 11">
+      <span></span><br><br>
+      <p>U džamijama je  prvi sprat  tradicionalno rezervisan za muškarce, koji obavljaju molitve u glavnoj prostoriji džamije. To je kao i u slučaju žena sa drugim spratom  skladu sa islamskom tradicijom i praksom, gdje su muškarci obično na glavnoj molitvenoj liniji tokom džume (petkom) i drugih obaveznih molitvi. U džamijama koje imaju dva sprata, prvi sprat obično pruža veći prostor za muškarce, jer su muškarci obavezni prisustvovati molitvama u džematu, dok je drugi sprat kako je gore I spomenuto, rezervisan za žene. Ovaj raspored omogućava odgovarajuću podjelu prostora koja je u skladu sa vjerskim propsiima, uz očuvanje privatnosti i udobnosti za sve vjerujuće. Prvi sprat, osim što je mesto za obavljanje molitve, često služi i kao centar za okupljanje i zajedničke vjerske aktivnosti, kao što su predavanja, učenje Kur'ana ili organizacija zajedničkih događanja u zajednici. Ovaj prostor takođe doprinosi opštem duhovnom životu džamije, čineći ga mjestom zajedništva i pobožnosti.</p>
+    
+    </div>
+
+
+    <div class="card"><h3>Ramazanski post u Islamu često plijeni pažnju nemuslimana koji posjećuju Crnu Goru</h3><p>Ramazanski post u Islamu zaista privlači pažnju mnogih, uključujući i nemuslimane koji posjećuju Crnu Goru, jer predstavlja jednu od najvažnijih vjerskih obaveza za muslimane. Tokom mjeseca ramazana, muslimani širom svijeta poste od zore do zalaska sunca, apstinirajući od hrane, pijenja, pušenja i drugih fizičkih zadovoljstava. Ovaj post nije samo fizičko suzdržavanje, već i vrijeme duhovnog pročišćenja, samodiscipline i duhovnog rasta.</p>
+      
+      <img src="./slike/ramazan.jpg" alt="Slika 12">
+    <span>Fotografisano u susret Ramazanu u edukativnom centru “Divan” u Podgorici</span> <br><br>
+    
+    <p>Za mnoge nemuslimane koji borave u Crnoj Gori tokom ramazana, ovaj period može biti zanimljiv jer su svjedoci kako lokalna muslimanska zajednica praktikuje svoje vjerske obaveze. Posjetioci mogu primijetiti specifične rituale koji prate post, kao što su zajednički iftari (večernji obroci sa kojima se prekida post), sabah namaz (molitva pred zoru) i druženja u zajednici, u posljednje vrijeme i ramazanski top u mnogim krajevima na sjeveru Crne Gore simbolizuje Ramazan kroz ovu tradicionalnu normu. </p>
+      <br>
+    <p>U Crnoj Gori, u kojoj živi značajan broj muslimana, Ramazan je vrijeme kada mnogi posjetioci, kako turisti, tako i lokalni, mogu bolje razumjeti islamske običaje i vrijednosti. Mnoge džamije organizuju iftare za turiste, a takođe se često organizuju i javni događaji, predavanja i kulturne aktivnosti koje imaju za cilj da podignu svijest o islamskoj tradiciji.</p>
+    <br>
+    <p>Za nemuslimane, prisustvovanje ili učešće u ovim događanjima može biti i obrazovni i kulturni doživljaj, jer omogućava bolje razumijevanje duhovnog života muslimanske zajednice i praktičnog života u periodu ramazana. Pored toga, tokom ramazana, Crna Gora postaje i mjesto međureligijskog dijaloga, gdje se različite kulture i vjerovanja međusobno poštuju i razmjenjuju.</p>
+    </div>
+
+
+    <div class="card"><h3>Stari Ćilim – prepoznatljivosost muslimanskih porodica Crne Gore</h3><p>Stari ćilim je zaista važan simbol i prepoznatljiv element kulturnog identiteta muslimanskih porodica u Crnoj Gori. Ovi tradicionalni ručno tkani tepisi, sa svojom bogatom simbolikom, tehnikom izrade i estetskim vrijednostima, predstavljaju duboko ukorijenjenu tradiciju koja se prenosi kroz generacije. Ćilimi su dio svakodnevnog života, ali i odraz vjerskih, kulturnih i porodičnih vrijednosti, i često imaju emotivno značenje.
+Jedna od najvažnijih funkcija ćilima u islamskoj tradiciji je njegova upotreba tokom molitve. Musalla je posebna vrsta ćilima koja se koristi kao prostirka za obavljanje namaza (molitve). Ovi ćilimi su često ukrašeni geometrijskim motivima i simbolima, jer islam zabranjuje upotrebu ljudskih i životinjskih figura u umjetnosti, pa su dizajnirani na način koji odražava duhovne vrijednosti i estetski čist oblik.
+</p><img src="./slike/cilim.jpg" alt="Slika 13">
+<span>Slikano u Starom Baru u jednoj od džamija  </span><br><br>
+<p>Ćilimi su izrađivani i tkani od strane žena u porodici, često kao dio vjerske posvećenosti, ali i kao izraz umjjetničkog i estetskog izraza. Mnogi ćilimi imaju specifične uzorke i boje koje odražavaju lokalnu tradiciju, povezanost sa prirodom i svakodnevnim životom. Uzorci na ćilimima mogu imati različita značenja, a često su povezani sa simbolima iz islamske kulture, kao što su geometrijski oblici, cvetni motivi ili apstraktne forme.
+  Osim što služe kao ukras u domaćinstvu, ćilimi su imali i praktičnu funkciju, kao prostirka za molitvu ili kao zaštita od hladnoće. U mnogim muslimanskim porodicama u Crnoj Gori, stariji ćilimi su često nasleđivani i smatrani vrednim porodičnim blagom, prenoseći priče i tradicije kroz vreme.
+  </p>
+</div>
+
+
+    <div class="card"><h3>Muslimanske sobe – prostorije </h3><p>Muslimanske sobe, posebno u domovima koji posjećuju nemuslimani, često postaju važna tačka interesovanja i kulturne razmjene. Kroz susrete u privatnim prostorijama, nemuslimani imaju priliku da se upoznaju sa tradicionalnim načinima života, vjerovanjima i običajima muslimanskih porodica. Iako su ovi prostori često osmišljeni s obzirom na vjerske vrijednosti i norme privatnosti, oni takođe mogu biti prilagođeni kako bi se posjetiocima, uključujući nemuslimane, omogućilo bolje razumijevanje islamske kulture i tradicije. </p>
+      <img src="./slike/divan2.jpg" alt="Slika 14">
+    <span>Muslimanska soba-prostorija u okviru edukativnog centra “Divan” u Podgorici</span> <br><br>
+    <p>Muslimanske sobe su zaista veoma interesantna i važna mjesta za posjetu, posebno za one koji žele da bolje razumiju islamsku tradiciju, kulturu i način života. Ove sobe, bilo da se nalaze u domovima ili drugim vjerskim i kulturnim prostorima, nude autentičan uvid u svakodnevni život muslimanskih porodica i zajednica.
+      Poseta ovim prostorima omogućava ne samo upoznavanje sa praktičnim aspektima islamskog života, kao što su prostori za molitvu, običaji vezani za gostoprimstvo i ishranu, već i sa dubljim kulturnim, društvenim i duhovnim vrijednostima. Takođe, ove sobe mogu biti i mjesto za međureligijski dijalog i kulturalnu razmjjenu, gdje nemuslimani mogu postavljati pitanja, učiti o islamu i steći dublje razumevanje vjerskih običaja i vrjednosti. Uz to, poštovanje tradicionalnih vrijednosti poput skromnosti, privatnosti i gostoprimstva čini posjetu još značajnijom.
+      </p>
+    </div>
+
+
+    <div class="card"><h3>Pljevlja simbol multietničnosti </h3><p>Pljevlja, grad smešten u sjevernom dijelu Crne Gore, zaista može biti smatrana simbolom multietničnosti i multikulturnog suživota. Kroz svoju bogatu istoriju, Pljevlja su postala mjesto gdje se prepliću različite religije, kulture i tradicije, stvarajući jedinstvenu društvenu dinamiku. Ovaj grad ima značajan istorijski, kulturni i vjerski značaj, a njegov karakter oblikovan je prisustvom različitih naroda i vjera, uključujući Srbe, Bošnjake, Hrvate i druge etničke zajednice.  Ova Pljevaljska sahat kula zaista može biti smatrana simbolom zajedništva i istorijskog nasljeđa Pljevlja, kao i cjelokupne multietničnosti ovog grada. 
+      Sahat kula, koja se nalazi u centru grada, nije samo arhitektonski objekat, već i kulturni i istorijski spomenik koji povezuje različite etničke, vjerske i društvene zajednice koje su kroz istoriju oblikovale grad, što u konačnom obogaćuje turističku ponudu ovog mjesta I Samim tim privlači značajan broj posjetioca zbog pomenutih vrijednosti koji ovaj grad čine atraktivnim mjestom. 
+      </p><img src="./slike/pljevlja.jpg" alt="Slika 15">
+    <span>Sahat kula u Pljevljima </span>
+    </div>
+
+
+    <div class="card"><h3>Husein-pašina džamija u Pljevljima kao turistička atrakcija</h3><p>Husein pašina džamija u Pljevljima jedan je od najljepših primjera islamske arhitekture i umjetnosti u ovom dijelu Evrope. Minaret je visok 42 metra, a džamiju je podigao Husein paša Boljanić, krajem XVI vijeka. Husein-pašina džamija u Pljevljima (Taslidže), ima kulturno-istorijsku i umjetničku vrijednost i predstavlja remek-djelo istočnjačkog građevinarstva. 
+      Turisti koji posjete džamiju imaju priliku da se upoznaju sa islamskom kulturnom baštinom, obiđu njen prostor za molitvu, kao i uživaju u mirnom okruženju koje džamija pruža. Džamija se nalazi u prelijepom okruženju koje pruža posjetiocima priliku za tišinu. Husein-pašina džamija često privlači ne samo turiste, već i vjernike koji dolaze kako bi obavili svoje vjerske obrede u ovom istorijskom prostoru
+      Od neobične je važnosti što je sačuvana u gotovo izvornom obliku. Pored čudesne ornamentike, u džamiji se nalazi i bogata zbirka drevnih rukopisa. Kada je u pitanju istorijska vrijednost treba napomenuti da je Husein-pašina džamija jedan od najstarijih vjerskih objekata u Pljevljima, a njena izgradnja potiče iz perioda kada je ovaj grad bio pod vlašću Osmanskog carstva. Ova džamija ima veliku istorijsku i vjersku vrednost, jer je bila centar islamske zajednice u regionu i kroz vjekove bila središnji punkt za obavljanje vjerskih obreda i edukaciju. 
+      Pored toga, džamija nosi ime po Husein-paši, značajnom osmanskom vojnom lideru, što je dodatno čini važnim spomenikom.
+      </p><img src="./slike/husein.jpg" alt="Slika 16">
+    <span>Husein-pašina džamija u Pljevljima</span></div>
+
+
+    <div class="card"><h3>Sebilj - česma koja spaja</h3><p>Sebilj u Tuzima, je vrlo sličan simboličnom značaju kao Sebilj u Sarajevu, ali sa specifičnostima koje odražavaju lokalnu kulturu i tradiciju. Sebilj u Tuzima je također javna česma koja je postavljena sa željom da posluži kao simbol zajedništva i povezivanja, ali i kao mjesto okupljanja za ljude iz različitih zajednica. Tuzima, smještena blizu Podgorice, je naselje koje ima bogatu istoriju i značajnu multikulturnu dimenziju, zbog čega je Sebilj postao simbol spajanja i međusobnog poštovanja među različitim narodima i tradicijama.</p>
+      <img src="./slike/sebiljTuzi.jpg" alt="Slika 17">
+    <span>Sebilj u Tuzima - česma koja spaja</span> <br><br>
+    <p>Ova česma nije samo funkcionalna, već ima i duboko vrijedno značenje u kontekstu lokalne zajednice, jer pruža vodu i postavlja se kao mjesto susreta, koje spaja ljude. Njegov dizajn i funkcija podsjećaju na tradicionalnu arhitekturu i simboliku, ali ujedno predstavljaju i savremeni oblik spajanja kultura ne samo muslimana nego je mjesto uvezivanja svih dobronamjernih prolaznika ili slučajnih prolaznika. 
+      Sebilj u Tuzima, kao i onaj u Sarajevu, naglašava važnost zajedništva i postojanje mjesta gdje se ljudi mogu sresti i povezati. Sebilj je arhitektonski prepoznatljiv i vizualno atraktivan, čineći ga prirodnim magnetom za turiste koji žele da uživaju u ljepoti tradicionalne arhitekture. U Sarajevu, Sebilj je postao nezaobilazno turističko mjesto, dok u Tuzima pruža jedinstvenu priliku da posjetitelji dožive autentični spoj tradicije i modernog turizma. U mnogim gradovima širom svijeta, slična mjesta su ključna za stvaranje socijalnih veza i za organizovanje različitih kulturnih događaja, festivala ili manifestacija, što dodatno povećava turističku privlačnost.
+      </p>
+    </div>
+
+
+    <div class="card"><h3>Džemat – jedinstvo zajednice</h3><p>Džemat je termin koji označava zajednicu vjernika, posebno unutar muslimanske zajednice, i ima jedinstveno značenje u islamu. Pojam "džemat" odnosi se na zajednicu ljudi koji se okupljaju radi obavljanja vjerskih obreda, ali takođe označava širu društvenu i duhovnu povezanost među ljudima. U islamu, džemat nije samo fizička zajednica koja se sastaje u džamiji, već i simbol jedinstva, solidarnosti i međusobne pomoći.</p>
+      <img src="./slike/dzemat.jpg" alt="Slika 18">
+    <span>Džemat u Osmanagića džamiji u Podgorici</span> <br><br>
+    <p>Džemat kao simbol zajedništva u islamskoj tradiciji ne samo da ima duhovno značenje za same muslimane, već takođe predstavlja značajan element kulturnog identiteta koji može fascinirati turiste, pa i nemuslimane. Za mnoge posjetitelje koji nisu upoznati s islamskom praksom, pojam džemata može biti fascinantan jer ukazuje na način života koji uključuje zajedništvo, solidarnost i duhovnu povezanost među ljudima. Pogledi turista, posebno nemuslimana, na duhovnu dimenziju džemata mogu biti vrlo raznoliki, ali često podrazumijevaju divljenje, poštovanje i ponekad i iznenađenje u pogledu dubine duhovne zajednice.</p>
+    </div>
+
+
+    <div class="card"><h3>Mapiranje vjerskih objekata I njihov značaj </h3><p><b>Mapiranje vjerskih objekata</b> ima ključnu ulogu u vođenju vjernika, turista i posjetitelja prema važnim vjerskim, kulturnim i istorijskim mjestima, kao i u promicanju zajedničkog poštovanja i razumijevanja tih objekata. Vjerski objekti, poput džamija, crkava, sinagoga, hramova, manastira, i drugih, nisu samo mjesta vjerskih obreda, već i simboli kulture, tradicije i istorije. Signali i oznake koji upućuju na ove objekte pomažu ljudima da ih lako pronađu, ali imaju i dublji značaj u kontekstu duhovnog i kulturnog identiteta.
+      Analizirajući fenomen nedostatka adekvatne signalizacije koja upućuje na vjerske objekte može imati nekoliko negativnih posljedica za zajednicu, posjetioce, a čak i za očuvanje kulturne i duhovne baštine. Iako mnogi vjerski objekti, koji su istorijski značajni, imaju neku osnovnu signalizaciju, postoje brojni izazovi koji se javljaju kada signalizacija nije pravilno postavljena ili nije dovoljno razvijena. 
+      Nedostatak odgovarajuće signalizacije može imati širok spektar negativnih učinaka, uključujući otežano pristupanje vjerskim objektima, smanjenje broja posjetioca smanjenje kulturne i duhovne svijesti, te potencijalnu ugroženost kulturne baštine. Važno je da vjerske zajednice, vlasti i lokalne zajednice prepoznaju značaj pravilne i jasne signalizacije, koja ne samo da olakšava fizički pristup, već i doprinosi očuvanju kulturnog identiteta, promovisanju međureligijskog dijaloga i jačanju turističke ponude.
+      </p><img src="./slike/mapiranje.jpg" alt="Slika 19">
+    <span>Signalizacija – Gusinje</span></div>
+  </div>
+
+  <div class="cta">
+    <h3>Foto album</h3>
+    <br><br>
+    <a href="album.html"><button>Pogledajte...</button></a>
+  </div>
+
+  <footer>
+    <h2>Sajt izradio: Adnan Metđonaj</h2>
+    <p><strong>Iznijeti stavovi su isključivo odgovornost autora i/ili izdavača i nužno ne izražavaju stavove Fonda</strong></p>
+    <strong>Kulturna baština Bošnjaka kroz viziju turisticke ponude Crne Gore</strong>
+  </footer>
+
+</body>
+</html>
